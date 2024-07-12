@@ -24,12 +24,19 @@ const downloadLink = document.getElementById('download-link');
 
 ```
 *dropArea: Área para arrastrar y soltar imágenes.
+
 *fileInput: Input de archivo para seleccionar imágenes.
+
 *fileSelectButton: Botón para abrir el selector de archivos.
+
 *imagePreview: Contenedor para la vista previa de la imagen.
+
 *submitContainer: Contenedor del botón de envío.
+
 *downloadContainer: Contenedor del enlace de descarga.
+
 *downloadLink: Enlace para descargar la imagen procesada.
+
 
 ##Manejo de Eventos de Arrastrar y Soltar
 ```
