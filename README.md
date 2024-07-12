@@ -68,8 +68,11 @@ function unhighlight(e) {
 
 ```
 *preventDefaults(e): Previene el comportamiento por defecto de los eventos.
+
 *highlight(e): Resalta el área de arrastre.
+
 *unhighlight(e): Elimina el resaltado del área de arrastre.
+
 
 ##Manejo de la Imagen Arrastrada y Seleccionada
 
@@ -91,8 +94,11 @@ fileInput.addEventListener('change', function(event) {
 });
 ```
 *handleDrop(e): Maneja la imagen arrastrada.
+
 *fileSelectButton: Abre el selector de archivos al hacer clic.
+
 *fileInput: Maneja la imagen seleccionada desde el sistema de archivos.
+
 
 ##Procesamiento de Archivos
 ```
@@ -209,8 +215,12 @@ function uuidv4() {
 
 ```
 *uploadImage(file): Sube la imagen al servidor.
+
 *readWorkflowAPI(): Lee el archivo workflow_api.json.
+
 *queuePrompt(promptWorkflow): Encola el prompt para el procesamiento.
+
 *uuidv4(): Genera un identificador único.
+
 
 "# ComfyUI_app" 
