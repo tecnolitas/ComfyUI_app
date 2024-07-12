@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="/home/css/index.css">
+</head>
+<body>
+    <h1>Background Remover</h1>
+    <div class="container">
+        <div class="column" id="image-column">
+            <form id="imageForm">
+                <div id="drop-area">
+                    <p>Arrastra y suelta una imagen aquí o</p>
+                    <button type="button" id="fileSelectButton">Seleccionar Imagen</button>
+                    <input type="file" id="image" name="image" accept="image/*" required>
+                    <div id="imagePreview"></div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="column" id="modified-column">
+            <div class="center" id="submit-container" style="display: none;">
+                <button type="submit" form="imageForm">Eliminar fondo</button>
+            </div>
+            <div class="output-section" id="modified-output">
+                <h3>Imagen Modificada</h3>
+                <!-- Modified Image will be appended here -->
+            </div>
+            <div id="download-container" style="display: none;">
+                <a id="download-link" class="download-button">Descargar imagen</a>
+            </div>
+        </div>
+    </div>
+    <div id="loader" class="loader" style="display: none;"></div> <!-- Loader -->
+    <script src="/home/js/app.js"></script>
+</body>
+</html>
