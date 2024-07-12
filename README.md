@@ -7,7 +7,9 @@ const clientId = uuidv4();
 let promptId = null;
 ```
 *serverAddress: Dirección del servidor donde se realizarán las peticiones.
+
 *clientId: Identificador único generado para el cliente.
+
 *promptId: Variable para almacenar el ID del prompt.
 
 ##Elementos del DOM
